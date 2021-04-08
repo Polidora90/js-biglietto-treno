@@ -14,4 +14,6 @@ if (anniUtente >= 65) {
     prezzoBiglietto = prezzoBiglietto * 0.6;
 }
 
-console.log (prezzoBiglietto + "€");
+var prezzoFinaleBiglietto = prezzoBiglietto.toFixed(2);
+
+console.log (prezzoFinaleBiglietto + "€");
